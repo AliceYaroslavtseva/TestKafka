@@ -1,7 +1,2 @@
-asgiref==3.7.2
-confluent-kafka==2.2.0
-Django==4.2.4
 kafka-python==2.0.2
-sqlparse==0.4.4
-typing_extensions==4.7.1
 confluent-kafka==2.2.0
