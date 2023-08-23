@@ -31,6 +31,12 @@ python3 -m pip install --upgrade pip # Для Linux и macOS
 ```
 pip install -r requirements.txt
 ```
+### Добвить брокера в хосты:
+```
+sudo su
+nano /etc/hosts
+127.0.0.1 kafka
+```
 ### Запустить сборку контейнеров:
 ```
 docker-compose up -d
@@ -45,10 +51,4 @@ python3 consumer.py
 ### Адрес интерфейса:
 ```
 http://localhost:8080/
-```
-### Добвить брокера в хосты:
-```
-sudo su
-nano /etc/hosts
-127.0.0.1 kafka
 ```
