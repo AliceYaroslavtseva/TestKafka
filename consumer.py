@@ -4,7 +4,7 @@ import sys
 from confluent_kafka import Consumer, KafkaError, KafkaException
 MIN_COMMIT_COUNT = 1
 
-conf = {'bootstrap.servers': 'be19eb3f48f6:9092',
+conf = {'bootstrap.servers': 'kafka:9092',
         'group.id': 'test_group',
         'enable.auto.commit': False,
         'auto.offset.reset': 'earliest'}
