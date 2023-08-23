@@ -42,6 +42,10 @@ python consumer.py
 python3 pusher.py # Для Linux и macOS
 python3 consumer.py
 ```
+### Адрес интерфейса:
+```
+http://localhost:8080/
+```
 ### Добвить брокера в хосты:
 ```
 sudo su
